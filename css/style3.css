@@ -1,0 +1,244 @@
+.inline-block {
+    display: inline-block; 
+    vertical-align: top;
+    color: white;
+
+}
+.inline-block1 {
+    display: inline-block; 
+    vertical-align: top;
+    color: black;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    vertical-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #F4949D;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    padding: 40px;
+}
+
+#ulHeader {
+    text-align: center;
+}
+.flexContainer {
+    display: flex;
+    background-color: white;
+    
+}
+
+.uxResearch {
+    width: 33%;
+    padding: 20px;
+    border: 5px solid white;
+    margin: 0 auto;
+    background: rgb(243,202,202);
+    background: linear-gradient(90deg, rgba(243,202,202,1) 0%, rgba(244,148,144,1) 35%);
+}
+
+.wireframing {
+    width: 33%;
+    padding: 20px;  
+    border: 5px solid white;
+    margin: 0 auto;
+    background: rgb(243,202,202);
+    background: linear-gradient(90deg, rgba(243,202,202,1) 0%, rgba(244,148,144,1) 35%);
+}
+
+.designThinking {
+    width: 33%;
+    padding: 20px;
+    border: 5px solid white;
+    margin: 0 auto;
+    background: rgb(243,202,202);
+    background: linear-gradient(90deg, rgba(243,202,202,1) 0%, rgba(244,148,144,1) 35%);
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button1 {
+    width: 327px;
+    height: 48px;
+    background-color: #F4949D;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 30px 38%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    ;
+}
+
+.myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: transparent;
+}
+.workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img1, .img2, .img3, .content1, .content2 {
+    padding: 20px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  
+  #allProjects {
+    width: 327px;
+    background-color: #F4949D;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 25px;
+    margin: 1px 38%;
+  }
+  
+  #aboutMe {
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #description {
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .far fa-heart{
+    color: red;
+    cursor: pointer;
+  }
+  
+  .fa-heart {
+    color: red;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .flexContainer {
+      flex-direction: column;
+      width: 100%;
+
+    }
+    .content1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 350px 350px 350px;
+      grid-template-areas:
+        "img1 content1"
+        "img2 content2"
+    }
+    .content2 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 350px 350px 350px;
+      grid-template-areas:
+        "img1 content1"
+        "img2 content2"
+    }
+
+  .mySkills {
+    position: static;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
